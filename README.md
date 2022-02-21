@@ -2,3 +2,25 @@
 
 ## Difference between 'var' vs 'let', 'const'
 <img src="images/variable.png">
+
+### map() method
+
+* It calls the function for every element of an array and it returns  all of the function results in a new array.
+
+### forEach() method:
+
+* foreach():It calls one function for each element of an array but it does not return anything else.
+
+### filer() method:
+
+* filter()Loop through in an array
+* If conditions satisfy these elements then that filter returns those elements  in a new array.
+* If the condition is not satisfied then filter() returns an empty array [ ].
+
+
+### find() method:
+
+* find() method loop through in an array
+* If it finds a specific element then it returns the match first specific  elements.
+* If not found then it shows the result undefined
+
