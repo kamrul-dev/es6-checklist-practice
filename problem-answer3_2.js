@@ -21,6 +21,13 @@
             }
 */
 
+// for single statement
+const mult = (num1, num2) => num1 * num2;
+const result = mult(5+2, 5+2);
+console.log(result);
+
+
+// for multi line statements
 const addAndMultiplication = (num1, num2) => {
     const add1 = num1 + 2;
     const add2 = num2 + 2;
