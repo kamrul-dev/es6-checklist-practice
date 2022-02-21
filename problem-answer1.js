@@ -1,5 +1,8 @@
+
 /* 1. কখন const আর কখন let দিয়ে ভেরিয়েবল ডিক্লেয়ার করতে হয় সেটা তোমাকে জানতেই হবে। তুমি নিজে নিজে একটা const দিয়ে আরেকটা let দিয়ে ভেরিয়েবল ডিক্লেয়ার করে ফেলো। */
 
+
+ //   <<===================================================== let =============================================================>>
 
 // variable declare with let keyword
     /* let :
@@ -10,7 +13,9 @@
     -- inside the block let keyword does not effect the variable redeclare compare with global variable.
     -- hoisting is not possible
     -- With let, redeclaring a variable in the same block is NOT allowed
-     */
+    */
+
+
 let name = 'Kamrul';
 // name = 'Hasan'   //variable reassign possible(that means we can change the variables value)
 // let name = 'Hasan' //variable redeclare is not possible
@@ -30,7 +35,10 @@ console.log('let outside of the block', x);
 let s;
 console.log(s); */ //ReferenceError: Cannot access 's' before initialization
 
-//==========================================================================================================================
+
+
+
+// <<===================================================== const =============================================================>>
 
 // variable declare with const keyword
     /* const:
@@ -60,3 +68,5 @@ console.log('const outside of the block', p);
 /* q = 12;
 const q;
 console.log(q); */  // SyntaxError: Missing initializer in const declaration
+
+
