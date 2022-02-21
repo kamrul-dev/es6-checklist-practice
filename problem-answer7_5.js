@@ -12,7 +12,7 @@
     --foreach():It calls one function for each element of an array but it does not return anything else.
 */
 
-// filer() method:
+// filter() method:
 /* 
     --filter()Loop through in an array
     --If conditions satisfy these elements then that filter returns those elements  in a new array.
